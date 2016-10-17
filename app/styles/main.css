@@ -1,0 +1,221 @@
+body {
+  padding: 0;
+  background: #062f3c;
+}
+.main{
+  padding-top: 1em;
+}
+
+.page-wrapper .logo-img {
+  margin-top:-10px;
+}
+
+.sidebar {
+  vertical-align: top;
+  height:100%;
+  background:#4d394b;    
+  padding-bottom:100px;
+}
+.user-pic  {
+  border-radius: 50%; 
+  height: 2em;
+  width: 2em;
+  overflow: hidden;
+}
+.sidebar .slack-name {
+  background:#3E313C;
+  padding:15px 0px 15px 15px;
+}
+
+.sidebar .slack-name h2{
+  color:#fff;
+  font-size:18px;
+  font-weight:bold;
+  
+  margin-bottom:0px;
+}
+
+.sidebar .channel-list {
+  margin-top:20px;
+  background:#4d394b;
+  
+}
+
+.sidebar .channel-list .channel a{
+
+  color:rgba(255,255,255,0.6);
+  
+  font-weight:300;
+
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.sidebar .channel-list .channel a:hover{
+  text-decoration: none;
+  background:#3E313C;
+}
+
+.sidebar .channel-list .channel a.selected{
+  background:#4c9689;
+  color:#fff;
+  text-decoration: none !important;   
+  display: block;
+  padding-left: 1em;
+}
+
+.sidebar .channel-list .channel.create {
+  font-style: italic;
+}
+
+.sidebar .channel-list .list-head {
+  margin-top:10px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.sidebar .my-info {
+
+  bottom:0;
+  padding:15px;
+  background:#3E313C;
+  
+}
+
+
+.jumbotron
+{
+ margin-top: 5em;
+
+ border-top-left-radius: 6em;
+ border-bottom-right-radius: 7.8em;
+ padding: 2em;
+}
+.sidebar .my-info .user-info {
+  padding-left:5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidebar .my-info .user-info .user-name {
+  color:#fff;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.sidebar .my-info .user-info .options {
+  color:#999;
+  font-size:12px;
+}
+
+.sidebar .my-info .user-info .options a{
+  color:#999;
+  font-size:12px;
+}
+
+.sidebar .presence {
+  border-radius: 50%;
+
+  width: 10px;
+  height: 10px;
+  background: #ab9ba9;
+  vertical-align: middle;
+}
+
+.sidebar .presence.online {
+  background: #99d04a;
+}
+
+
+.message-form {
+  position: fixed;
+  bottom: 1px;  
+  height: 84px;
+  
+}
+.message-form button{
+ height: 84px;
+ background: none;
+ color: #FFF;
+
+}
+.message-form input{
+  position: fixed;
+  bottom: 1px;  
+  background: none;
+  height: 84px;
+  color: #FFF;
+  font-weight: 300;
+  font-family: Arial;
+  
+}
+.message-pane .header {
+  background: rgba(0,0,0,.2);
+  padding-left: 1em;
+  border-radius: .5em;
+}
+
+.message-pane .header h1 {
+  padding: 12px 0 10px 0;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-size:24px;
+  color:#FFF;
+  font-weight:900;
+}
+
+.message-pane  { 
+
+  max-height: 600px;
+  overflow-y: scroll; 
+
+
+}
+
+.timestamp{
+  color: #000 !important;
+}
+.message-info{
+  padding: 1em ;
+  margin: 1em;
+  border-top-right-radius:2em;
+  border-bottom-left-radius: 2em
+}
+.message-pane .message-wrap .message-info .user-name {
+  color:#555459;
+  font-weight:900;
+}
+
+.message-pane .message-wrap .message-info .user-name span{
+  color:#ccc;
+  font-weight: normal;
+  font-size:10px;
+}
+
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #062f3c;
+}
